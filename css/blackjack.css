@@ -1,0 +1,200 @@
+.blackjack {
+    background-color: green;
+}
+.card_hidden {    
+	background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    height: 217px;
+    width: 150px;
+}
+.card_hidden1 {
+    background-color: #e3e3e3;
+    border: 1px solid #878787;
+    height: 195px;
+    margin: 10px;
+    width: 128px;
+}
+.card_hidden1 img {
+    margin-left: -14px;
+    margin-top: 77px;
+    transform: rotate(-90deg);
+    width: 158px;
+	-webkit-transform:rotate(-90deg); 
+	-moz-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg); 
+}
+.card1 {    
+    height: 200px;
+    width: 150px;
+}
+.card1 img {
+    border-radius: 6px;
+    width: 150px;
+}
+.deck {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+	z-index:1;   
+	border-radius: 6px;
+    overflow: hidden;
+}
+.next_cart {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+	z-index:1;   
+	border-radius: 6px;
+    overflow: hidden;
+}
+.rotated1 {  
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d; 
+    -moz-transform: rotateY(-180deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    /* -- transition is the magic sauce for animation -- */
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.rotated2 {  
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -webkit-transform-style: preserve-3d; 
+    -moz-transform: rotateY(0deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    /* -- transition is the magic sauce for animation -- */
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.deck2 {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+.deck3 {
+    position: absolute;
+    left: 10px;
+    top: 400px;
+}
+.deck4 {
+    left: 10px;
+    position: absolute;
+    top: 328px;
+}
+.deck4_1 {
+    color: #ffffff;
+    font-size: 25px;
+    float: left;
+    margin-right: 10px;
+}
+.deck4_2 {
+	float:left;
+    background-color: #e3e3e3;
+	margin-right:10px;
+}
+.deck4_3 {
+	float:left;
+    background-color: #e3e3e3;
+	margin-right:10px;
+}
+.deck5 {
+    left: 10px;
+    position: absolute;
+    top: 628px;
+}
+.deck5_1 {
+	float:left;
+	margin-right:10px;
+    color: #ffffff;
+    font-size: 25px;
+}
+.deck5_2 {
+    background-color: #0B480A;
+    border: 1px solid #014b00;
+    border-radius: 8px;
+    float: left;
+    margin-right: 10px;
+}
+.deck5_2:hover {
+    background-color: #10560F;
+}
+.deck5_2 a {
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 20px;
+    text-decoration: none;
+}
+.deck5_3 {
+	float:left;
+    background-color: #e3e3e3;
+	margin-right:10px;
+    color: #rgb(0,73,144);
+    font-size: 25px;
+}
+.deck5_3 a {
+    color: #rgb(0,73,144);
+    font-size: 25px;
+}
+.cart_place {
+	float:left;
+    width: 180px;
+    height: 230px;
+}
+.cart_place img {
+	overflow:hidden;
+	border-radius:6px;
+}
+.bl_el1 {	
+    color: #ffffff;
+    font-size: 35px;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    text-align: center;
+}
+.bl_el2 {
+    height: 700px;
+    position: relative;
+}
+.bl_el3 {
+	height:100px;
+    position: relative;
+}
+.casino_bust {
+    color: #00d9ff;
+    font-weight: bold;
+}
+.you_bust {
+    color:red;
+    font-weight: bold;
+}
+.you_win {
+    color: #00d9ff;
+    font-weight: bold;
+}
+.you_lost {
+    color:red;
+    font-weight: bold;
+}
+.draw {
+    color:#000000;
+    font-weight: bold;
+}
+.instruction {
+    color: #ffffff;
+    font-size: 23px;
+    padding-left: 24px;
+}

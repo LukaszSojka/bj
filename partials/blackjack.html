@@ -1,0 +1,52 @@
+<div class="container game" ng-controller="blackjack">
+	<div class="blackjack">	
+		<div class="bl_el1">	
+			Simple one player Black Jack <br />
+		</div>
+		<div class="bl_el2">	
+			<span class="instruction">Casino must stay on 17, and must draw to 16</span>
+			<div class="deck">				
+				<div class="card_hidden"><div class="card_hidden1">
+					<img src="images/site_logo_strapless.gif" />
+				</div></div>
+			</div>
+			<div id="deck0">
+				<div class="next_cart" id="next_cart_1"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+				<div class="next_cart" id="next_cart_2"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+				<div class="next_cart" id="next_cart_3"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+				<div class="next_cart" id="next_cart_4"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+				<div class="next_cart" id="next_cart_5"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+				<div class="next_cart" id="next_cart_6"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+				<div class="next_cart" id="next_cart_7"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+				<div class="next_cart" id="next_cart_8"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+				<div class="next_cart" id="next_cart_9"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+				<div class="next_cart" id="next_cart_10"><div class="card_hidden"><div class="card_hidden1"><img src="images/site_logo_strapless.gif" /></div></div></div>
+			</div>
+			<div class="deck4">	
+				<div class="deck4_1">	
+					Bank score: {{ bank_score }} <span class="casino_bust"> {{ casino_bust }} </span>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="deck5">	
+				<div class="deck5_1">	
+					Your score:  {{ your_score }} 
+					<span class="you_bust"> {{ you_bust }} </span>
+					<span class="you_win"> {{ you_win }} </span>
+					<span class="you_lost"> {{ you_lost }} </span>
+					<span class="draw"> {{ draw }} </span>
+				</div>
+				<div class="deck5_2">	
+					<a ng-click="hit()">hit</a>
+				</div>
+				<div class="deck5_2">
+					<a ng-click="stick()">stick</a>
+				</div>
+				<div class="deck5_2">
+					<a ng-click="next_game()">next game</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
